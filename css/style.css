@@ -161,76 +161,8 @@ footer{
 	margin-bottom: 0;
 	font-size: 0.95em;	
 }
-#interests{
-	text-align: left;
-}
 
-#quote1{
-	line-height: 3px;
-}
-#quote1 #author1{
-  text-align: right;
-  padding-top: 3px;
-}
-.quotes{
-	font-style: italic;
-	text-align: justify;
-}
 
-#quote2 #author2{
-	text-align: right;
-}
-#quote3 #author3{
-	text-align: right;
-}
-#quote4 #author4{
-	text-align: right;
-}
-.resume{
-	border-bottom-style: solid;
-	border-color: steelblue;
-	border-bottom-width: 3.5px;
-	overflow: hidden;
-}
-#contact-info{
-	line-height: 12px;
-}
-#eduaction{
-	background: #FDF9F0;
-}
-#work{
-	background: #F8F0EC;
-}
-#community-service{
-	background: #FDF9F0;
-}
-#activities{
-	background: #F8F0EC;
-}
-#awards{
-	background: #FDF9F0;
-	overflow: hidden;
-}
-#personal-growth{
-	float: left;
-	width: 40%;
-	margin: 0 5%;
-	text-align: justify;
-	padding: 5px;
-	
-}
-
-#skiing{
-	float: left;
-	width: 40%;
-	margin: 4.6% 5% 0 0;
-	text-align: justify;
-	padding: 5px;
-}
-
-.pictures{
-	font-size: 0.8em;
-}
 
 iframe{
 	width: 100%;
