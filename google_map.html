@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Map</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src= "https://maps.googleapis.com/maps/api/j?AIzaSyBFAv_EOfEVsppEQXYZlb75ZDRY17P7jDk&callback=initMap" async defer></script>
+</head>
+<body>
+	
+			<div id="map"></div>
+			
+			<script>
+		var map;
+		function initMap() {
+			map = new google.maps.Map(document.getElementById('map'), {
+				center: {lat: -34.397, lng: 150.644},
+				zoom: 8
+				});
+			}
+			</script>
+			
+  
+  <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="homepage"> Main Page </a></li>
+	      <li><a href="resume.html" title="resume">Resume</a></li>
+	      <li><a href="videogames.html" title="videogames">Video Games</a></li>
+		  <li><a href="google_map.html" title="map">Map Page</a></li>
+        </ul>
+      </nav>
+  </header>
+  <h1>Map Page</h1>
+  <div></div>
+  
+</body>
+</html>
