@@ -9,3 +9,16 @@ var el = document.getElementById('canvas');
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
 	};
+	
+	 var myMap = new google.maps.Map(el, mapOptions);
+	 
+	 
+	 var marker = new google.maps.Marker({
+      position: {lat: 54.0364, lng: 21.7667},
+      map: myMap,
+      animation: google.maps.Animation.DROP,
+      title: "Gizycko"
+	 
+	 
+	
+	
