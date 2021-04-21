@@ -26,6 +26,20 @@ var el = document.getElementById('canvas');
       animation: google.maps.Animation.BOUNCE,
       title: "Olsztyn"
 	  
+	   });
+   var osip = new google.maps.Marker({
+      position: {lat: 52.2297, lng: 21.0122 },
+      map: myMap,
+      animation: google.maps.Animation.DROP,
+      title: "Warsaw"
+	  
+	   });
+
+
+}
+
+google.maps.event.addDomListener(window, 'load', initMap);
+	  
 	  
 	 
 	 
