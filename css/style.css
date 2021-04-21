@@ -1,0 +1,42 @@
+body {
+	background-image: url(../media/background.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+nav {
+	font-family: 'Arial', sans-serif;
+	color: red;
+}
+
+h1 {
+	font-family: 'Arial', sans-serif;
+	color: purple;
+	text-align: center;
+	font-size: 45px;
+	text-decoration: underline;
+}
+
+strong {
+	font-family: 'Arial', sans-serif;
+	color: blue;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 19px;
+	color: white;
+}
+
+h2 {
+	font-size: 40px;
+	color: white;
+	text-decoration: underline;
+}
+
+iframe {
+	height: 750px;
+	width: 50%;
+}
