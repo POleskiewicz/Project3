@@ -18,6 +18,15 @@ var el = document.getElementById('canvas');
       map: myMap,
       animation: google.maps.Animation.DROP,
       title: "Gizycko"
+	  
+	  });
+  var mst = new google.maps.Marker({
+      position: {lat: 53.7784, lng: 20.4801},
+      map: myMap,
+      animation: google.maps.Animation.BOUNCE,
+      title: "Olsztyn"
+	  
+	  
 	 
 	 
 	
