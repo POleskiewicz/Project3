@@ -16,7 +16,7 @@ var el = document.getElementById('canvas');
 	 var marker = new google.maps.Marker({
       position: {lat: 54.0364, lng: 21.7667},
       map: myMap,
-      animation: google.maps.Animation.DROP,
+      animation: google.maps.Animation.BOUNCE,
       title: "Gizycko"
 	  
 	  });
@@ -30,7 +30,7 @@ var el = document.getElementById('canvas');
    var osip = new google.maps.Marker({
       position: {lat: 52.2297, lng: 21.0122 },
       map: myMap,
-      animation: google.maps.Animation.DROP,
+      animation: google.maps.Animation.BOUNCE,
       title: "Warsaw"
 	  
 	   });

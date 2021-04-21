@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Map</title>
@@ -6,21 +6,15 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/script.js"></script>
-	<script src= "https://maps.googleapis.com/maps/api/j?AIzaSyBFAv_EOfEVsppEQXYZlb75ZDRY17P7jDk&callback=initMap" async defer></script>
+	<script src="https://maps.googleapis.com/maps/api/j?AIzaSyBFAv_EOfEVsppEQXYZlb75ZDRY17P7jDk&callback=initMap"></script>
+	<script src="js/script.js"></script>
+	
 </head>
 <body>
 	
 			<div id="map"></div>
 			
-			<script>
-		var map;
-		function initMap() {
-			map = new google.maps.Map(document.getElementById('map'), {
-				center: {lat: -34.397, lng: 150.644},
-				zoom: 8
-				});
-			}
-			</script>
+			
 			
   
   <header>
@@ -37,4 +31,50 @@
   <div></div>
   
 </body>
-</html>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Poland Map</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+   <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+	<script src="js/script.js"></script>
+  </head>
+  <body>
+    <header id="main-header">
+      <div id="header-container" class="container">
+        <div id="my-name"><a href="index.html" title="pageone"><p>Patryk Oleskiewicz</p></a></div>
+      </div>
+    </header>	
+    <nav id="main-navbar">
+      <div id="navbar-container" class="container">
+        <ul>
+					<li><a href="#jump" title="homepage">Main Page</a></li>
+					<li><a href="resume.html" title="resumepage">Resume</a></li>
+					<li><a href="videogames.html" title="videogamespage">Video Games</a></li>
+					<li><a href="google_map.html" title="map_page">Map Page</a></li>
+        </ul>
+      </div>
+    </nav>
+	<div class="container" id="content-wrapper">
+	  <div id="belarus">
+	    <h1>Poland</h1>
+	    <p>Here are some of the nicest places in all of Poland</p>
+    </div>
+      <div id="wrapper">
+            <div id="canvas"></div>
+          </div>
+	</div>
+    <footer>
+      <div class="container">
+        <p>ITMD 361</p>
+        <p>Chicago, IL</p>
+        <address>poleskiewicz@hawk.iit.edu</address>
+      </div>  
+    </footer>	
+  </body>
